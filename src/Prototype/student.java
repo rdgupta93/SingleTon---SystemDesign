@@ -22,7 +22,7 @@ public class student implements prototype<student> {
         this.moduleSchedule = moduleSchedule;
     }
 
-    public student(student student) {// working as a copy constructor and can be used to create deep
+    public student(student student) {// working as a copy constructor and can be used to create deep copies for fixed attributes
 
         this.yearOfEnrollment = student.yearOfEnrollment;
         this.batchName = student.batchName;
@@ -91,5 +91,45 @@ public class student implements prototype<student> {
 
     public void setModuleSchedule(String moduleSchedule) {
         this.moduleSchedule = moduleSchedule;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public String getYearOfEnrollment() {
+        return yearOfEnrollment;
+    }
+
+    public String getBatchName() {
+        return batchName;
+    }
+
+    public String getModuleName() {
+        return moduleName;
+    }
+
+    public String getInstructorName() {
+        return instructorName;
+    }
+
+    public String getModuleStatDate() {
+        return moduleStatDate;
+    }
+
+    public String getModuleEndDate() {
+        return moduleEndDate;
+    }
+
+    public String getModuleSchedule() {
+        return moduleSchedule;
     }
 }
