@@ -1,5 +1,7 @@
 package Prototype;
 
+import Builder.Student;
+
 public class Main {
     public static void main(String[] args) {
 //        Student studentPrototype = new Student("2023", "BatchA", "LLD", "Sandeep", "12-Dec-23", "TTS", "30-Apr-2024");
