@@ -1,3 +1,5 @@
+package Singleton;
+
 public class Singletonadv {
     private static Singletonadv instance;
 
